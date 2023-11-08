@@ -1,5 +1,3 @@
-import os
-
 from datetime import datetime
 
 from flask import Flask, render_template
@@ -20,9 +18,9 @@ def sobre():
 def interesses():
     return render_template("interesses.html", config=config, year=datetime.now().year, page_name="Interesses")
 
-@app.route("/recursos")
+@app.route("/artigos")
 def recursos():
-    return render_template("recursos.html", config=config, year=datetime.now().year, page_name="Recursos")
+    return render_template("artigos.html", config=config, year=datetime.now().year, page_name="Artigos")
 
 app.run(host="0.0.0.0", port=8081)
 
