@@ -1,0 +1,16 @@
+full_name: "Gabriel Barreiro"
+
+resources:
+  - name: "Tor Browser"
+    url: "https://www.torproject.org/download/"
+    description: "O Tor é um software que permite você acessar a rede Onion, um mecanismo de anonimato e privacidade criado para proteger pessoas de censura pública e privada, principalmente em países ditatoriais como China e Afeganistão."
+  - name: "Wireguard VPN"
+    url: "https://www.wireguard.com"
+    description: "Software open source de VPN com cliente e servidor de alta performance."
+  - name: "OpenDNS"
+    url: "https://www.opendns.com"
+    description: "Empresa de soluções domésticas e corporativas de DNS. Gosto particularmente dos servidores DNS gratuitos de alta disponibilidade e velocidade deles (fim da página)."
+  - name: "Cloudflare Free DNS"
+    url: "https://1.1.1.1/"
+    description: "Provedor de DNS gratuito fornecido pela Cloudflare com viés de proteção e privacidade acessíveis ao usuário comum."
+

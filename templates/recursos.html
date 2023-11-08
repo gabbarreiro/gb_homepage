@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <div class="content-text">
+
+        <p>
+            Aqui constam alguns links externos e arquivos que decidi disponibilizar. A função deles é facilitar minha vida e a de amigos na hora de acessar ou baixar coisas que julgo importantes.
+        </p>
+
+        <ul class="resources">
+
+            {% for resource in config['resources'] %}
+
+            <li class="resource">
+
+                <a href="{{ resource['url'] }}">{{ resource['name'] }}</a>: {{ resource['description'] }}
+
+            </li>
+
+            {% endfor %}
+
+        </ul>
+
+    </div>
+{% endblock %}

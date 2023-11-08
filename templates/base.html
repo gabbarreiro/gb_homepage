@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+
+    <link rel="icon" type="image/png" href="/static/favicon.png"/>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+
+    <title>{{page_name}} - Gabriel Barreiro</title>
+
+    <header>
+
+        <h1 class="full_name">
+
+            {{ config["full_name"] }}
+
+        </h1>
+
+        <div class="top-header">
+
+            <a href="https://github.com/gabbarreiro"><img class="social-icon" src="/static/github.png"></a>
+            <a href="https://www.linkedin.com/in/gabriel-barreiro/"><img class="social-icon" src="/static/linkedin.png"></a>
+            <a href="https://medium.com/@gab.barreiro"><img class="social-icon" src="/static/medium.png"></a>
+            <a href="mailto:contato@gabrielbarreiro.com"><img class="social-icon" src="/static/e-mail.png"></a>
+
+        </div>
+
+        <div class="nav-bar">
+
+                <a class="nav-item" href="/">
+                    Sobre mim
+                </a>
+                <a class="nav-item" href="/interesses">
+                    Interesses
+                </a>
+                <a class="nav-item" href="/recursos">
+                    Recursos
+                </a>
+
+        </ul>
+
+    </header>
+
+    <body>
+
+
+        <div class="content">   
+                
+            <h1 class="page-title">
+                {{ page_name }}
+            </h1>
+
+            {% block content %}{% endblock %}
+
+        </div>
+
+    </body>
+
+    <footer>
+        <p>© {{ year }} Gabriel Barreiro - Todos os direitos reservados.</p>
+    </footer>
+
+</html>

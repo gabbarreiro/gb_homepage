@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+}
+
+h1.full_name {
+    
+    font-family: abadi;
+    font-size: 500%;
+    text-align: center;
+    margin-bottom: 0%;
+    margin-top: 3%;
+
+}
+
+div.nav-bar {
+    list-style-type: none;
+    text-align: center;
+    background-color: #1a1a1a;
+    padding: 0%;
+    margin: 0%;
+    margin-top: 1.5%;
+}
+
+a.nav-item {
+    display: inline-block;
+    text-align: center;
+    padding: 2%;
+    color: white;
+    font-weight: bolder;
+    size: 100%;
+}
+
+a.nav-item:hover {
+    background-color: black;
+    transform: scale(1.15, 1.15);
+}
+
+div.top-header {
+    text-align: center;
+}
+
+img.social-icon {
+    display: inline-block;
+    width: 2%;
+    height: 2%;
+    border-radius: 25%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    padding-top: 1%;
+}
+
+img.social-icon:hover {
+    transform: scale(1.25, 1.25);
+}
+
+div.content {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+div.content-text {
+    border-left: 10px solid #e6e6e6;
+    padding-left: 2%;
+    font-size: 150%;
+    font-family: abadi;
+}
+
+h1.page-title {
+    margin: 20pt;
+    font-size: 300%;
+    font-family: abadi;
+}
+
+header a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+img.profile {
+    text-align: center;
+    border-radius: 50%;
+    width: 30%;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: block;
+    border: 5px solid black;
+}
+
+p {
+    text-indent: 5%;
+    font-family: abadi;
+}
+
+ul {
+    list-style: none;
+}
+
+li.rectangle {
+    margin-left: 3%;
+    padding: 1%;
+    text-indent: 1%;
+    background-color: lightgrey;
+    margin-bottom: 1%;
+    border-left: 5px solid #1a1a1a;
+}
+
+footer {
+    padding: 1%;
+    color: white;
+    background-color: #1a1a1a;
+    text-align: center;
+}
+
+div.interest-block {
+    display: inline-block;
+    padding: 3%;
+    margin: 5%;
+    text-align: center;
+    vertical-align: top;
+    width: 30%;
+    background-color: whitesmoke;
+}
+
+div.interest-block p {
+    text-indent: 0%;
+    text-align: center !important;
+
+}
+
+div.interest-list {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: inline-block;
+    text-align: center;
+}
+
+div.interest-list img {
+    width: 35%;
+    height: 35%;
+    padding: 1%;
+    margin: 1%;
+}
+
+div.interest-list h2 {
+    margin: 1%;
+    padding: 0%;
+    padding-bottom: 2%;
+}
+
+li.resource {
+    text-indent: 2%;
+    padding-bottom: 1%;
+    list-style: disc inside; 
+    margin-left: 1%;
+}
+
+ul.resources {
+    border: 1px solid black;
+}
